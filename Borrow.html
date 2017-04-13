@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile Web App</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script>
+        $(document).ready(function(){
+            $('#toggable').click(function(){// thing you will click
+                $("#content").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable2').click(function(){// thing you will click
+                $("#content2").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable3').click(function(){// thing you will click
+                $("#content3").toggle();//what to show
+            });
+        });                
+    </script>        
+</head>
+<body>
+	<div>
+	    <div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="index.html">Home</a>
+	        <a href="Borrow.html">Borrow</a>
+	        <a href="Inventory.html">Inventory</a>
+	        <a href="GenRep.html">Generate Report</a>
+	    </div>
+	    <div id="titlebar">
+			<p>APPARATUS LIST</p>	
+    	</div>
+    </div>	
+    <span onclick="openNav()" id="sideMen" class="Menu"><img class ="icon" src="menu.png" alt="&#9776;"></span>
+    <form>
+  		<input type="text" name="search" placeholder="Search..">
+	</form>
+	<ul class="nav">
+		<li class="choice">
+			<a href="Apparatus.html">Apparatus</a>
+		</li>
+		<li class="choice">
+			<a class="active" href="Borrow.html">Borrow</a>
+		</li>
+	</ul>
+	<div>
+		
+	</div class="footer">
+</body>
+</html>
