@@ -58,42 +58,24 @@ body{
     font-size: 36px;
     margin-left: 50px;
 }
-
 .Menu {
     font-size: 60px;
     cursor: pointer;
     width: 60px;
 }
-
-ul.pList{
+.list{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ul.iList{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li.person{
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: 2px black solid; 
-    background-color: #57ddf2;
-    color: white; 
-}
-
-li.details { 
+li { 
     background: white;
     display: block;
     height: 25px;
-    margin: auto;
-    color: black; 
+    margin: auto; 
 }
-li.details:nth-child(odd) { background: #aaaaaa; }
+li:nth-child(odd) { background: #aaaaaa; }
 
 .main{
 	width: 100%;	
@@ -114,21 +96,12 @@ p.label{
     border:2px black solid; 
     font-size:42px; 
     display: inline;
-    background-color: #3ebdd1;
-    color: white; 
 }
 h3.tog{
+    border-style: solid;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-    .main{
-        top: 5%;
-        margin: auto;
-    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
