@@ -93,7 +93,7 @@ li.details {
     margin: auto;
     color: black; 
 }
-li.details:nth-child(odd) { background: #aaaaaa; }
+li.details:nth-child(odd) { background: #dbdde0; }
 
 .main{
 	width: 100%;	
