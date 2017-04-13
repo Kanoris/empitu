@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile Web App</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script>
+        $(document).ready(function(){
+            $('#toggable').click(function(){// thing you will click
+                $("#content").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable2').click(function(){// thing you will click
+                $("#content2").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable3').click(function(){// thing you will click
+                $("#content3").toggle();//what to show
+            });
+        });                
+    </script>        
+</head>
+<body>
+	<div id = "main">
+	    <div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="index.html">Home</a>
+	        <a href="Borrow.html">Borrow</a>
+	        <a href="Inventory.html">Inventory</a>
+	        <a href="GenRep.html">Generate Report</a>
+	    </div> 
+	    <div id="titlebar">
+			<p>APPARATUS</p>	
+    	</div>
+    </div>	
+    <span onclick="openNav()" id="sideMen" class="Menu"><img class ="icon" src="menu.png" alt="&#9776;"></span>
+	<div class="main">
+		<p class ="label">Borrower's list</p> <br><br> <!-- pre Idk how to skip lines with legit code HAHAHA -->
+		<p class = "label2"><a href = "frameBorrow.html" target = "borrow_frame">Apparatus</a></p>
+			
+		<iframe id = "borrow_frame" width = 80% height = 500 seamless src = "frameBorrow.html"></iframe>
+		<p class = "label2"><a target = "borrow_frame">Borrow</a></p> <!-- Di ngay to lumalabas sa page  -->
+
+		<iframe id = "borrow_frame" width = 80% height = 500 seamless src = "frameBorrow.html"></iframe>
+
+	</div>
+
+	<div>
+		
+	</div class="footer">
+</body>
+</html>

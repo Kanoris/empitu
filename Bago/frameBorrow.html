@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile Web App</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script>
+        $(document).ready(function(){
+            $('#toggable').click(function(){// thing you will click
+                $("#content").toggle();//what to show
+            });
+        });
+      
+        $(document).ready(function(){
+            $('#toggable0').click(function(){// thing you will click
+                $("#content0").toggle();//what to show
+            });
+        });           
+    </script>   
+</head>
+<body>
+		<h3 class="tog" id="toggable0">Student 1</h3>
+		<div class="hidden" id="content0">
+			<li>
+				<div style = "float: left">Hakdoggeh , Kanoris X.</div>
+				<div style = "float: right">9:30 - 9:31 MWF</div>
+			</li>
+			<li>
+				<div style = "float: left">6699</div>
+				<div style = "float: right">12/31/3900</div>
+			</li>
+		<h3 class="tog" id="toggable">Apparatus Borrowed</h3>
+		<div class="hidden" id="content">
+			<ul class="list">
+				<li>
+					<div style="float: left">Test Tube</div>
+					<div style="float: right">5</div>
+				</li>
+				<li>
+					<div style="float: left">Erlenmeyer Flask</div>
+					<div style="float: right">1</div>	
+				</li>
+				<li>
+					<div style="float: left">Alcohol Lamp</div>
+					<div style="float: right">3</div>
+				</li>				
+			</ul>	
+		</div>
+			
+	</div>
+	</body>
+</html>

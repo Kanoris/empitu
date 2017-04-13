@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile Web App</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script>
+        $(document).ready(function(){
+            $('#toggable').click(function(){// thing you will click
+                $("#content").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable2').click(function(){// thing you will click
+                $("#content2").toggle();//what to show
+            });
+        });
+        $(document).ready(function(){
+            $('#toggable3').click(function(){// thing you will click
+                $("#content3").toggle();//what to show
+            });
+        });                
+    </script>        
+</head>
+<body>
+	<div>
+	    <div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="index.html">Home</a>
+	        <a href="Borrow.html">Borrow</a>
+	        <a href="Inventory.html">Inventory</a>
+	        <a href="GenRep.html">Generate Report</a>
+	    </div>
+	    <div id="titlebar">
+			<p>HOMEPAGE</p>	
+    	</div>
+    </div>	
+    <img class ="icon"src="menu.png" alt="&#9776;" onclick="openNav()" id="sideMen" class="Menu"></img>    
+	<div class="main">
+		<div id=" title">
+			Borrower's list
+			<h3 id="toggable">Person1</h3>
+			<div class="hidden" id="content">
+				<ul>
+					<li>9:30 - 10:30 MTH 	03/24/17</li>
+					<li>Test Tube				   5</li>
+					<li>Beaker                     2</li>
+					<li>Alcohol Lamp               1</li>
+				</ul>	
+			</div>
+			<h3 id="toggable2">Person2</h3>
+			<div class="hidden" id="content2">
+				<ul>
+					<li>9:30 - 10:30 TF 	03/26/17</li>
+					<li>Test Tube				   2</li>
+					<li>Erlenmeyer Flask           1</li>
+					<li>Alcohol Lamp               3</li>
+				</ul>	
+			</div>
+			<h3 id="toggable3">Person3</h3>
+			<div class="hidden" id="content3">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>	
+			</div>						
+		</div>
+	</div>
+
+	<div>
+		
+	</div class="footer">
+</body>
+</html>
