@@ -2,13 +2,13 @@ body{
     margin: 0;
 }
 .header{
-	margin: auto;
-	text-align: center;
-	font: ;
+    margin: auto;
+    text-align: center;
+    font: ;
 }
 
 #titlebar{
-	width: 95%;
+    width: 95%;
     text-align: center;
     margin-left:5%;
     position: fixed;
@@ -17,9 +17,9 @@ body{
 }
 
 #title{
-	width: 100%;
-	text-align: center;
-	position: fixed;
+    width: 100%;
+    text-align: center;
+    position: fixed;
     display: inline-block;
 }
 
@@ -94,12 +94,13 @@ ul.AvailAp{
     list-style-type: none;
     padding: 3%;
     width: 70%;
+    top: 20%;
     overflow: hidden;
     position: fixed;
     background-color: #e55050;
     display: inline-block;
     font-family: Broadway;
-    margin-left: 12%; 
+    margin-left: 11%
 }
 
 li.choice {
@@ -142,6 +143,7 @@ li.brwr{
     display: block;
     height: 50px;
     margin: auto;
+    padding: 1%
 }
 
 li.details { 
@@ -154,20 +156,19 @@ li.details {
 li.details:nth-child(odd) { background: #dbdde0; }
 
 .main{
-	width: 100%;	
-	position: absolute;
+    width: 100%;    
+    position: absolute;
     top: 15%;
-    margin: auto;	
+    margin: auto;   
 }
 
 .hidden{
-	display: none;
+    display: none;
 }
 
 img.icon{
    width:50px;
-   height:50px;
-   margin-left: 12%;    
+   height:50px;  
 }
 p.label{
     border:2px black solid; 
