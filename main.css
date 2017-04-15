@@ -101,7 +101,7 @@ ul.AvailAp{
     display: inline-block;
     font-family: Broadway;
     margin-left: 11%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 li.choice {
@@ -160,10 +160,6 @@ li.details:nth-child(odd) { background: #dbdde0; }
     position: absolute;
     top: 15%;
     margin: auto;   
-}
-
-.qwerty{
-    overflow-y: scroll
 }
 
 .hidden{
