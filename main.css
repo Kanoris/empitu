@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow: auto;
 }
 .header{
     margin: auto;
@@ -218,5 +219,11 @@ input[type=text]:focus {
     .main{
         top: 5%;
         margin: auto;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    body{
+        overflow: auto;
     }
 }
