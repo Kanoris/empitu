@@ -93,13 +93,11 @@ ul.nav{
 ul.AvailAp{
     list-style-type: none;
     padding: 3%;
-    top: 13%;
     width: 70%;
     overflow: hidden;
     position: fixed;
     background-color: #e55050;
     display: inline-block;
-    text-align: center;
     font-family: Broadway;
     margin-left: 12%; 
 }
@@ -140,6 +138,12 @@ li.person{
     color: white; 
 }
 
+li.brwr{
+    display: block;
+    height: 50px;
+    margin: auto;
+}
+
 li.details { 
     background: white;
     display: block;
@@ -172,7 +176,13 @@ p.label{
     background-color: #3ebdd1;
     color: white; 
 }
+
+
 h3.tog{
+}
+
+button.appBtn{
+    float: right;
 }
 
 input[type=text] {
